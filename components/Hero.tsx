@@ -18,7 +18,7 @@ const Hero = () => {
                         transition={{ delay: 0.1, duration: 0.8 }}
                         className="mb-4"
                     >
-                        <span className="text-lg md:text-xl text-gray-500 font-medium">Hello, I'm</span>
+                        <span className="text-lg md:text-xl text-gray-500 font-medium">Hello, I&apos;m</span>
                         <h2 className="text-3xl md:text-4xl font-bold text-gray-800 mt-2">
                             <span className="bg-gradient-to-r from-blue-600 to-purple-600 bg-clip-text text-transparent">
                                 Harsh Poojary

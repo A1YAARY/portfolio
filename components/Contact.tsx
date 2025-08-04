@@ -1,8 +1,8 @@
 'use client';
 
 import { motion } from 'framer-motion';
-import { Mail, Phone, MapPin, Send } from 'lucide-react';
-import { useState } from 'react';
+import { Mail, Phone, MapPin } from 'lucide-react';
+
 
 const Contact = () => {
  
@@ -18,11 +18,11 @@ const Contact = () => {
           className="text-center mb-16"
         >
           <h2 className="text-4xl md:text-5xl font-bold mb-6 bg-gradient-to-r from-blue-600 to-purple-600 bg-clip-text text-transparent">
-            Let's Work Together
+            Let&apos;s Work Together
           </h2>
           <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-            I'm always interested in new opportunities and exciting projects. 
-            Let's discuss how we can bring your ideas to life.
+            I&apos;m always interested in new opportunities and exciting projects. 
+            Let&apos;s discuss how we can bring your ideas to life.
           </p>
         </motion.div>
 
@@ -38,7 +38,7 @@ const Contact = () => {
             <div>
               <h3 className="text-2xl font-bold mb-6 text-gray-800">Get In Touch</h3>
               <p className="text-gray-600 mb-8 leading-relaxed">
-                Whether you have a project in mind, are looking to collaborate, or just want to chat about tech — I’d love to connect. </p>
+                Whether you have a project in mind, are looking to collaborate, or just want to chat about tech — I&apos;d love to connect. </p>
             </div>
 
             <div className="space-y-6">

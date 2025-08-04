@@ -1,10 +1,10 @@
 'use client';
 
 import { motion } from 'framer-motion';
-import { Github, Linkedin, Mail, Heart } from 'lucide-react';
+import { Github, Linkedin, Mail,  } from 'lucide-react';
 
 const Footer = () => {
-  const currentYear = new Date().getFullYear();
+  
 
   return (
     <footer className="bg-gray-900 text-white py-12">

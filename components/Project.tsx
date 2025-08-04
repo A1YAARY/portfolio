@@ -3,6 +3,8 @@
 import { motion } from 'framer-motion';
 import { ExternalLink, Github } from 'lucide-react';
 import { Project } from '@/types/index';
+import Image from 'next/image';
+
 
 const Projects = () => {
   const projects: Project[] = [
@@ -72,7 +74,7 @@ const Projects = () => {
             Featured Projects
           </h2>
           <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-            Here are some of the projects I've worked on recently. Each one represents 
+            Here are some of the projects I&apos;ve worked on recently. Each one represents 
             a unique challenge and showcases different aspects of my skill set.
           </p>
         </motion.div>
@@ -89,11 +91,14 @@ const Projects = () => {
               className="bg-white rounded-2xl overflow-hidden shadow-lg hover:shadow-2xl transition-all duration-300"
             >
               <div className="relative overflow-hidden">
-                <img
-                  src={project.image}
-                  alt={project.title}
-                  className="w-full h-48 object-cover transition-transform duration-300 hover:scale-110"
-                />
+                <Image
+    src={project.image}
+    alt={project.title}
+    width={400}
+    height={192}
+    className="w-full h-48 object-cover transition-transform duration-300 hover:scale-110"
+    priority={false}
+  />
                 <div className="absolute inset-0 bg-gradient-to-t from-black/50 to-transparent opacity-0 hover:opacity-100 transition-opacity duration-300" />
               </div>
 

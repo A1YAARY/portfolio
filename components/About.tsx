@@ -1,7 +1,7 @@
 'use client';
 
 import { motion } from 'framer-motion';
-import { Code, Palette, Zap, Users,Layers } from 'lucide-react';
+import { Code, Zap, Users,Layers } from 'lucide-react';
 
 const About = () => {
   const features = [
@@ -42,7 +42,7 @@ const About = () => {
             About Me
           </h2>
           <p className="text-xl text-gray-600 max-w-3xl mx-auto leading-relaxed">
-            I’m a passionate and versatile full-stack developer with hands-on experience in building dynamic, responsive, and scalable web applications using the MERN stack. With a strong foundation in programming languages like C, C++, SQL, and JavaScript, I craft efficient and optimized code to bring ideas to life.
+            I&apos;m a passionate and versatile full-stack developer with hands-on experience in building dynamic, responsive, and scalable web applications using the MERN stack. With a strong foundation in programming languages like C, C++, SQL, and JavaScript, I craft efficient and optimized code to bring ideas to life.
           </p>
         </motion.div>
 
@@ -55,16 +55,16 @@ const About = () => {
           >
             <div className="prose prose-lg text-gray-600">
               <p className="mb-4">
-                My journey in web development started 1 years ago, and I've been 
+                My journey in web development started 1 years ago, and I&apos;ve been 
                 fortunate to work with amazing teams on projects
               </p>
               <p className="mb-4">
-               I specialize in building modern web applications using React, Node.js, PostgreSQL, Docker, and AWS. I'm always eager to explore new technologies like Next.js and TypeScript, and I thrive on tackling fresh challenges.
+               I specialize in building modern web applications using React, Node.js, PostgreSQL, Docker, and AWS. I&apos;m always eager to explore new technologies like Next.js and TypeScript, and I thrive on tackling fresh challenges.
 
 
               </p>
               <p>
-                I believe that great software is built by great teams, and I'm 
+                I believe that great software is built by great teams, and I&apos;m 
                 passionate about fostering collaborative environments where 
                 everyone can do their best work.
               </p>

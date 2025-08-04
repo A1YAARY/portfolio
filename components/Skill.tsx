@@ -56,9 +56,9 @@ const Skills = () => {
             Skills & Technologies
           </h2>
           <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-            Here's an overview of the technologies and tools I work with regularly.
-            I'm always learning and adding new skills to my toolkit.
-          </p>
+  Here&apos;s an overview of the technologies and tools I work with regularly.
+  I&apos;m always learning and adding new skills to my toolkit.
+</p>
         </motion.div>
 
         <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
